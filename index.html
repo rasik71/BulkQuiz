@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bulk Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="startPage">
+  <img src="assets/bulk-logo.png" alt="Bulk Logo" class="logo">
+
+  <h1>Test that you are a real Bulker</h1>
+  <input type="text" id="username" placeholder="Enter your Discord name">
+  <button id="startBtn">Enter</button>
+
+  <footer>Made by rasik7444</footer>
+</div>
+
+<div class="container hidden" id="quizPage">
+  <h2 id="questionText"></h2>
+  <div id="options"></div>
+  <div class="timer">
+    Time left: <span id="time">15</span>s
+  </div>
+</div>
+
+<div class="container hidden" id="resultPage">
+  <h1>Quiz Finished</h1>
+  <p id="scoreText"></p>
+  <footer>Made by rasik7444</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
